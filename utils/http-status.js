@@ -1,0 +1,11 @@
+const httpStatus = {
+  CREATED: 201,
+  OK: 200,
+  NOT_FOUND: 404,
+  INTERNAL_SERVER_ERROR: 500,
+  SERVICE_UNAVAILABLE: 503,
+  BAD_REQUEST: 400,
+  AUTHENTICATION_FAILED: 403
+};
+
+export default httpStatus;
